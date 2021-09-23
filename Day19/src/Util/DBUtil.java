@@ -4,6 +4,7 @@ import java.sql.*;
 
 public class DBUtil {
 	public static Connection getConnection() {
+		
 		Connection conn = null;
 		String myDriver ="oracle.jdbc.driver.OracleDriver";
 		String myURL = "jdbc:oracle:thin:@localhost:1521:xe";
